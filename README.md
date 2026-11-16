@@ -13,7 +13,7 @@ Basierend auf **Omanta v0.1.33** (Quelltext:
 
 | Datei | Beschreibung |
 |---|---|
-| `omanta_de.ts` | Qt-Übersetzungsquelle (XML), 427 Strings, vollständig übersetzt |
+| `omanta_de.ts` | Qt-Übersetzungsquelle (XML), 511 Strings, vollständig übersetzt |
 | `omanta_de.qm` | Kompilierte Übersetzung für die Laufzeit |
 
 ## Voraussetzungen
