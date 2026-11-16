@@ -58,7 +58,7 @@ linguist omanta_de.ts
 lrelease6 omanta_de.ts -qm omanta_de.qm
 ```
 
-Die aktualisierten Dateien anschließend in dieses Repository übernehmen.
+
 
 ## Mitwirken
 
