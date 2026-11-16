@@ -16,6 +16,11 @@
 <context>
     <name>ArchiveEngine</name>
     <message>
+        <location filename="../src/ArchiveEngine.cpp" line="51" />
+        <source>“%1” does not exist</source>
+        <translation>„%1“ existiert nicht</translation>
+    </message>
+    <message>
         <location filename="../src/ArchiveEngine.cpp" line="83" />
         <location filename="../src/ArchiveEngine.cpp" line="98" />
         <location filename="../src/ArchiveEngine.cpp" line="115" />
@@ -33,6 +38,12 @@
         <location filename="../src/ArchiveEngine.cpp" line="259" />
         <source>Nothing to compress</source>
         <translation>Nichts zu komprimieren</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="265" />
+        <location filename="../src/ArchiveEngine.cpp" line="359" />
+        <source>“%1” already exists</source>
+        <translation>„%1“ existiert bereits</translation>
     </message>
     <message>
         <location filename="../src/ArchiveEngine.cpp" line="279" />
@@ -111,6 +122,11 @@
         <location filename="../src/ArchiveEngine.cpp" line="510" />
         <source>Could not move the extracted files into place</source>
         <translation>Extrahierte Dateien konnten nicht verschoben werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="536" />
+        <source>“%1” has changed since extraction; it was left alone</source>
+        <translation>„%1“ hat sich seit der Extraktion geändert; wurde belassen</translation>
     </message>
 </context>
 <context>
@@ -469,6 +485,16 @@
 <context>
     <name>FileOperationWorker</name>
     <message>
+        <location filename="../src/FileOperationWorker.cpp" line="61" />
+        <source>%1 (copy)%2</source>
+        <translation>%1 (Kopie)%2</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="62" />
+        <source>%1 (copy %2)%3</source>
+        <translation>%1 (Kopie %2)%3</translation>
+    </message>
+    <message>
         <location filename="../src/FileOperationWorker.cpp" line="261" />
         <source>Operation failed</source>
         <translation>Vorgang fehlgeschlagen</translation>
@@ -500,14 +526,35 @@
         <translation>Nichts umzubenennen</translation>
     </message>
     <message>
+        <location filename="../src/FileOperationWorker.cpp" line="443" />
+        <source> — and some earlier renames could not be undone</source>
+        <translation> — und einige frühere Umbenennungen konnten nicht rückgängig gemacht werden</translation>
+    </message>
+    <message>
         <location filename="../src/FileOperationWorker.cpp" line="609" />
         <source>Could not find %1 in the trash</source>
         <translation>%1 konnte im Papierkorb nicht gefunden werden</translation>
     </message>
     <message>
+        <location filename="../src/FileOperationWorker.cpp" line="725" />
+        <source>“%1” is no longer empty, so it was left alone</source>
+        <translation>„%1“ ist nicht mehr leer und wurde daher belassen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="755" />
+        <location filename="../src/FileOperationWorker.cpp" line="1051" />
+        <source>“%1” already exists</source>
+        <translation>„%1“ existiert bereits</translation>
+    </message>
+    <message>
         <location filename="../src/FileOperationWorker.cpp" line="788" />
         <source>Could not find a free name</source>
         <translation>Kein freier Name gefunden</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="880" />
+        <source>Cannot put “%1” inside itself</source>
+        <translation>„%1“ kann nicht in sich selbst verschoben werden</translation>
     </message>
     <message>
         <location filename="../src/FileOperationWorker.cpp" line="881" />
@@ -1660,6 +1707,14 @@
     </message>
 </context>
 <context>
+    <name>NetworkModel</name>
+    <message>
+        <location filename="../src/NetworkModel.cpp" line="111" />
+        <source>%1 on %2</source>
+        <translation>%1 auf %2</translation>
+    </message>
+</context>
+<context>
     <name>PlacesModel</name>
     <message>
         <location filename="../src/PlacesModel.cpp" line="243" />
@@ -2227,6 +2282,7 @@
     </message>
     <message>
         <location filename="../src/SearchModel.cpp" line="384" />
+        <location filename="../src/SearchModel.cpp" line="425" />
         <location filename="../src/SearchModel.cpp" line="445" />
         <source>Content search is unavailable — no search index</source>
         <translation>Inhaltsuche nicht verfügbar — kein Suchindex</translation>
