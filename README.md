@@ -65,9 +65,3 @@ Platzhalter (`%1`, `%n`, `…`) unverändert lassen und die `.qm` neu bauen.
 
 Die Übersetzung folgt dem Lizenzmodell des Omanta-Projekts. Omanta selbst
 steht unter seiner eigenen Lizenz (siehe Upstream-Repository).
-EOF
-cat > .gitignore <<'EOF'
-Testing/
-*.log
-EOF
-git add README.md .gitignore && git commit -m "Add README and .gitignore" && git push 2>&1 | tail
