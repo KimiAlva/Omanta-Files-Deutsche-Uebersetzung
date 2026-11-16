@@ -1,6 +1,6 @@
 # Omanta (Files) – Deutsche Übersetzung
 
-Deutsche Übersetzung für **Omanta**, den nativen Dateimanager für
+Deutsche Übersetzung für **Omanta**, einen Dateimanager für
 [Omarchy](https://omarchy.org) (Paketname `omanta`, Fenstertitel „Files“).
 
 Basierend auf **Omanta v0.1.33** (Quelltext:

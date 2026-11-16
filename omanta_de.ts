@@ -10,7 +10,7 @@
     <message>
         <location filename="../qml/AboutDialog.qml" line="51" />
         <source>A native file manager for Omarchy.</source>
-        <translation>Ein nativer Dateimanager für Omarchy.</translation>
+        <translation>Ein Dateimanager für Omarchy.</translation>
     </message>
 </context>
 <context>
