@@ -367,6 +367,84 @@
     </message>
 </context>
 <context>
+    <name>FileOperations</name>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="16" />
+        <source>%1 items</source>
+        <translation>%1 Elemente</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="18" />
+        <source>Create “%1”</source>
+        <translation>„%1“ erstellen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="19" />
+        <source>Rename to “%1”</source>
+        <translation>Umbenennen in „%1“</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="20" />
+        <source>Rename %1</source>
+        <translation>%1 umbenennen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="21" />
+        <source>Compress %1</source>
+        <translation>%1 komprimieren</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="22" />
+        <source>Extract %1</source>
+        <translation>%1 extrahieren</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="23" />
+        <source>Link %1</source>
+        <translation>%1 verknüpfen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="24" />
+        <source>Move %1 to trash</source>
+        <translation>%1 in Papierkorb verschieben</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="25" />
+        <source>Restore %1</source>
+        <translation>%1 wiederherstellen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="26" />
+        <source>Copy %1</source>
+        <translation>%1 kopieren</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="27" />
+        <source>Move %1</source>
+        <translation>%1 verschieben</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="28" />
+        <source>Delete %1</source>
+        <translation>%1 löschen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="29" />
+        <source>Empty the trash</source>
+        <translation>Papierkorb leeren</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="30" />
+        <source>Undo transfer</source>
+        <translation>Übertragung rückgängig</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="31" />
+        <source>Undo extraction</source>
+        <translation>Extraktion rückgängig</translation>
+    </message>
+</context>
+<context>
     <name>FilePicker</name>
     <message>
         <location filename="../qml/FilePicker.qml" line="46" />
@@ -1344,6 +1422,36 @@
 </context>
 <context>
     <name>Platform</name>
+    <message>
+        <location filename="../src/Platform.cpp" line="133" />
+        <source>1 item</source>
+        <translation>1 Element</translation>
+    </message>
+    <message>
+        <location filename="../src/Platform.cpp" line="134" />
+        <source>%L1 items</source>
+        <translation>%L1 Elemente</translation>
+    </message>
+    <message>
+        <location filename="../src/Platform.cpp" line="153" />
+        <source>Today, %1</source>
+        <translation>Heute, %1</translation>
+    </message>
+    <message>
+        <location filename="../src/Platform.cpp" line="156" />
+        <source>Yesterday</source>
+        <translation>Gestern</translation>
+    </message>
+    <message>
+        <location filename="../src/Platform.cpp" line="158" />
+        <source>%1 days ago</source>
+        <translation>vor %1 Tagen</translation>
+    </message>
+    <message>
+        <location filename="../src/Platform.cpp" line="174" />
+        <source> at </source>
+        <translation> um </translation>
+    </message>
     <message>
         <location filename="../src/Platform.cpp" line="494" />
         <source>Home</source>
