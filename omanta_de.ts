@@ -14,6 +14,106 @@
     </message>
 </context>
 <context>
+    <name>ArchiveEngine</name>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="83" />
+        <location filename="../src/ArchiveEngine.cpp" line="98" />
+        <location filename="../src/ArchiveEngine.cpp" line="115" />
+        <location filename="../src/ArchiveEngine.cpp" line="128" />
+        <source>Could not read “%1”</source>
+        <translation>„%1“ konnte nicht gelesen werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="107" />
+        <location filename="../src/ArchiveEngine.cpp" line="135" />
+        <source>Could not write the archive</source>
+        <translation>Archiv konnte nicht geschrieben werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="259" />
+        <source>Nothing to compress</source>
+        <translation>Nichts zu komprimieren</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="279" />
+        <source>Unsupported archive format</source>
+        <translation>Nicht unterstütztes Archivformat</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="284" />
+        <source>Could not set up the archive format</source>
+        <translation>Archivformat konnte nicht eingerichtet werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="294" />
+        <source>Only zip archives can be encrypted</source>
+        <translation>Nur ZIP-Archive können verschlüsselt werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="301" />
+        <source>Could not set up encryption</source>
+        <translation>Verschlüsselung konnte nicht eingerichtet werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="317" />
+        <location filename="../src/ArchiveEngine.cpp" line="323" />
+        <source>Could not create the archive</source>
+        <translation>Archiv konnte nicht erstellt werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="347" />
+        <source>Could not finish the archive</source>
+        <translation>Archiv konnte nicht abgeschlossen werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="360" />
+        <source>Could not publish the archive: %1</source>
+        <translation>Archiv konnte nicht veröffentlicht werden: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="397" />
+        <source>Could not open the archive</source>
+        <translation>Archiv konnte nicht geöffnet werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="408" />
+        <source>Could not write to “%1”</source>
+        <translation>„%1“ konnte nicht geschrieben werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="437" />
+        <source>Could not read the archive</source>
+        <translation>Archiv konnte nicht gelesen werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="444" />
+        <location filename="../src/ArchiveEngine.cpp" line="452" />
+        <source>The archive contains an unsafe path — refusing</source>
+        <translation>Das Archiv enthält einen unsicheren Pfad — abgelehnt</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="464" />
+        <source>Could not extract the archive</source>
+        <translation>Archiv konnte nicht extrahiert werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="474" />
+        <source>The archive is empty</source>
+        <translation>Das Archiv ist leer</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="486" />
+        <location filename="../src/ArchiveEngine.cpp" line="496" />
+        <source>Could not record extracted files</source>
+        <translation>Extrahierte Dateien konnten nicht erfasst werden</translation>
+    </message>
+    <message>
+        <location filename="../src/ArchiveEngine.cpp" line="510" />
+        <source>Could not move the extracted files into place</source>
+        <translation>Extrahierte Dateien konnten nicht verschoben werden</translation>
+    </message>
+</context>
+<context>
     <name>BatchRenameDialog</name>
     <message>
         <location filename="../qml/BatchRenameDialog.qml" line="45" />
@@ -367,6 +467,55 @@
     </message>
 </context>
 <context>
+    <name>FileOperationWorker</name>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="261" />
+        <source>Operation failed</source>
+        <translation>Vorgang fehlgeschlagen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="268" />
+        <source>No folder name given</source>
+        <translation>Kein Ordnername angegeben</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="292" />
+        <source>Nothing to link</source>
+        <translation>Nichts zu verknüpfen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="300" />
+        <source>Link to %1</source>
+        <translation>Verknüpfung zu %1</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="307" />
+        <source>Could not find a free name for the link</source>
+        <translation>Kein freier Name für die Verknüpfung gefunden</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="336" />
+        <location filename="../src/FileOperationWorker.cpp" line="365" />
+        <source>Nothing to rename</source>
+        <translation>Nichts umzubenennen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="609" />
+        <source>Could not find %1 in the trash</source>
+        <translation>%1 konnte im Papierkorb nicht gefunden werden</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="788" />
+        <source>Could not find a free name</source>
+        <translation>Kein freier Name gefunden</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperationWorker.cpp" line="881" />
+        <source>Could not find a free name for “%1”</source>
+        <translation>Kein freier Name für „%1“ gefunden</translation>
+    </message>
+</context>
+<context>
     <name>FileOperations</name>
     <message>
         <location filename="../src/FileOperations.cpp" line="16" />
@@ -435,6 +584,7 @@
     </message>
     <message>
         <location filename="../src/FileOperations.cpp" line="30" />
+        <location filename="../src/FileOperations.cpp" line="56" />
         <source>Undo transfer</source>
         <translation>Übertragung rückgängig</translation>
     </message>
@@ -442,6 +592,128 @@
         <location filename="../src/FileOperations.cpp" line="31" />
         <source>Undo extraction</source>
         <translation>Extraktion rückgängig</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="32" />
+        <source>Remove %1</source>
+        <translation>%1 entfernen</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="34" />
+        <source>Operation</source>
+        <translation>Vorgang</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="42" />
+        <source>%1 files</source>
+        <translation>%1 Dateien</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="44" />
+        <source>Creating “%1”</source>
+        <translation>„%1“ wird erstellt</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="45" />
+        <source>Renaming to “%1”</source>
+        <translation>Umbenennen in „%1“</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="46" />
+        <source>Renaming %1</source>
+        <translation>%1 wird umbenannt</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="47" />
+        <source>Compressing %1</source>
+        <translation>%1 wird komprimiert</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="48" />
+        <source>Extracting %1</source>
+        <translation>%1 wird extrahiert</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="49" />
+        <source>Linking %1</source>
+        <translation>%1 wird verknüpft</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="50" />
+        <source>Moving %1 to trash</source>
+        <translation>%1 wird in den Papierkorb verschoben</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="51" />
+        <source>Restoring %1</source>
+        <translation>%1 wird wiederhergestellt</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="52" />
+        <source>Copying %1</source>
+        <translation>%1 wird kopiert</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="53" />
+        <source>Moving %1</source>
+        <translation>%1 wird verschoben</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="54" />
+        <source>Deleting %1</source>
+        <translation>%1 wird gelöscht</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="55" />
+        <source>Emptying the trash</source>
+        <translation>Papierkorb wird geleert</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="57" />
+        <source>Undoing extraction</source>
+        <translation>Extraktion wird rückgängig gemacht</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="58" />
+        <source>Removing %1</source>
+        <translation>%1 wird entfernt</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="60" />
+        <source>Working</source>
+        <translation>Arbeitet</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="161" />
+        <location filename="../src/FileOperations.cpp" line="363" />
+        <source>Waiting for archive password</source>
+        <translation>Warte auf Archivpasswort</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="219" />
+        <source>A few seconds left</source>
+        <translation>Noch wenige Sekunden</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="221" />
+        <source>About %1 seconds left</source>
+        <translation>Noch etwa %1 Sekunden</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="222" />
+        <source>About %1 minutes left</source>
+        <translation>Noch etwa %1 Minuten</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="518" />
+        <location filename="../src/FileOperations.cpp" line="537" />
+        <source>A name cannot be empty or contain “/”</source>
+        <translation>Ein Name darf nicht leer sein und kein „/“ enthalten</translation>
+    </message>
+    <message>
+        <location filename="../src/FileOperations.cpp" line="532" />
+        <source>Nothing to rename</source>
+        <translation>Nichts umzubenennen</translation>
     </message>
 </context>
 <context>
@@ -1944,6 +2216,20 @@
         <location filename="../qml/PropertiesDialog.qml" line="685" />
         <source>Other</source>
         <translation>Andere</translation>
+    </message>
+</context>
+<context>
+    <name>SearchModel</name>
+    <message>
+        <location filename="../src/SearchModel.cpp" line="374" />
+        <source>Content search works in local folders only</source>
+        <translation>Inhaltsuche funktioniert nur in lokalen Ordnern</translation>
+    </message>
+    <message>
+        <location filename="../src/SearchModel.cpp" line="384" />
+        <location filename="../src/SearchModel.cpp" line="445" />
+        <source>Content search is unavailable — no search index</source>
+        <translation>Inhaltsuche nicht verfügbar — kein Suchindex</translation>
     </message>
 </context>
 <context>
