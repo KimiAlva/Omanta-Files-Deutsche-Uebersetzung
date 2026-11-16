@@ -1,5 +1,8 @@
 # Omanta (Files) – Deutsche Übersetzung
 
+> Originalprojekt **Omanta** von [28allday](https://github.com/28allday) —
+> Quellcode: https://github.com/28allday/omanta
+
 Deutsche Übersetzung für **Omanta**, einen Dateimanager für
 [Omarchy](https://omarchy.org) (Paketname `omanta`, Fenstertitel „Files“).
 
