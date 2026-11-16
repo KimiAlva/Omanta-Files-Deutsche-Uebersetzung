@@ -15,8 +15,9 @@ Basierend auf **Omanta v0.1.33** (Quelltext:
 
 ## Voraussetzungen
 
-Die Anwendung muss Übersetzungen laden können. Omanta nutzt dafür `QTranslator` und
-sucht die `.qm`-Datei in folgenden Pfaden (in dieser Reihenfolge):
+Diese Übersetzung setzt eine Omanta-Version voraus, die Übersetzungen zur
+Laufzeit lädt (`QTranslator`). Die Dateisuche erfolgt in folgenden Pfaden
+(in dieser Reihenfolge):
 
 1. `$OMANTA_TRANSLATIONS_DIR`
 2. `<appdir>/../share/omanta/translations`
@@ -43,7 +44,8 @@ bzw. `LANGUAGE=de`).
 
 ## Übersetzung aktualisieren
 
-Bei neuen Strings im Quelltext:
+Die folgenden Befehle laufen im **Omanta-Quellrepository** (nicht in diesem
+Repo), in dem `src/` und `qml/` liegen:
 
 ```bash
 # Strings neu extrahieren
@@ -55,6 +57,8 @@ linguist omanta_de.ts
 # Kompilieren
 lrelease6 omanta_de.ts -qm omanta_de.qm
 ```
+
+Die aktualisierten Dateien anschließend in dieses Repository übernehmen.
 
 ## Mitwirken
 
